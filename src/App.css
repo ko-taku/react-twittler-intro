@@ -33,16 +33,21 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
   border: 0;
 }
 
 button,
 input {
-  overflow: visible; /* 1 */
+  overflow: visible;
+  /* 1 */
 }
 
 button {
@@ -128,7 +133,7 @@ main {
   flex: 0 0 0;
 }
 
-.tweetForm__profile > img {
+.tweetForm__profile>img {
   display: inline-block;
   width: 50px;
   border-radius: 100%;
@@ -208,33 +213,32 @@ main {
   padding: 0.2rem;
 }
 
-.tweet__profile > img {
+.tweet__profile>img {
   display: inline-block;
   width: 50px;
   border-radius: 100%;
 }
 
-.notification__sign > .fas {
+.notification__sign>.fas {
   display: initial;
   cursor: initial;
 }
 
-.tweet__content 
-.notification__content {
+.tweet__content .notification__content {
   flex: 1 0 0;
 }
 
-.tweet__userInfo > .tweet__username {
+.tweet__userInfo>.tweet__username {
   color: var(--bold-text-color);
   font-weight: 700;
   margin-left: 0.5rem;
 }
 
-.tweet__userInfo > .tweet__username.tweet__username--purple {
+.tweet__userInfo>.tweet__username.tweet__username--purple {
   background-color: var(--point-color-tint-2);
 }
 
-.tweet__userInfo > .tweet__createdAt {
+.tweet__userInfo>.tweet__createdAt {
   color: var(--sub-text-color);
   margin-left: 0.5rem;
 }
